@@ -1,0 +1,132 @@
+@list1 = ("Negative Space ", "Close Crop/Zoom ", "Repeated Images ", "Use of Textures ", "Rotated Images ", "Blur ", "Landscape/Panorama", "A garment ", "A figure/doll ", "Mixed Media ", "A decoration ", "Something Useful", "Your own design ", "Cosplay ", "Stripes ", "Geometric Shapes ", "Chiaroscuro");
+
+$categories{1} = \@list1;
+
+@list2 = ("I am your father/mother", "A Brief Encounter is Pivotal", "It all depends on this one choice", "A Terrible Solution", "There is No Escape", "An Immovable Object meets an Irrestible Force", "Sudden Danger", "A Battle / Fight / Confrontation", "Something Breaks / Malfunctions", "We're Surrounded!", "A Moment of Calm Contemplation", "Attempted Bribery", "A Cry for Help", "A Truth is Revealed", "Something is Concealed", "Conversation", "Icy Politeness", "Faced with Overwhelming Odds", "Someone gains Purpose", "A Long Walk");
+
+$categories{2} = \@list2;
+
+@list3 = ("Angst", "Dark Tone", "Apocalypse", "Character Death", "Dystopias", "Hurt / Comfort", "Terrible Choices", "Isolation / Loneliness", "Confessions", "Trauma", "It Wasn't Meant to Be", "Conflicting Obligations / Oaths", "Identity Crisis", "Loss of Faith", "Watching Helplessly");
+
+$categories{3} = \@list3;
+
+@list4 = ("Elves, Fairies, Pixies and Brownies", "Vampires", "Zombies", "Magical Creatures", "Androids and robots", "Aliens", "Werewolves", "Spiders (Giant, Radioactive, or otherwise unusual)", "Kraken, Leviathans and Creatures of the Deep", "Dragons", "Dinosaurs and Pre-historic Creatures ", "Things that go Bump in the Night", "Water Spirits", "Triads (Maiden / Mother / Crone, The Fates, Macbeth's Witches, etc.)", "Magical Horses (Centaurs, Unicorns, Pegasi)", "Frankencritters", "Mobile / Carnivorous Plants", "Energy Beings", "Clowns", "Snakes, Serpents and Worms");
+
+$categories{4} = \@list4;
+
+@list5 = ("Five Things ", "Documentation ", "Second person narration ", "Epistolary fic: Emails, letters etc. ", "First person narration ", "Stream of Consciousness ", "Fix-its", "Remix ", "Happy Endings", "Slow Build", "Vignette", "Repeats and Repetitions", "Plays and Scripts ", "Kishotenketsu (Plot Without Conflict)", "Internet / Social Media", "Song Inspired", "Unreliable Narrator ", "Outsider POV", "Use of Symbolism", "Surreality");
+
+$categories{5} = \@list5;
+
+@list6 = ("Glorious", "Terrible", "Formidable", "Victorious", "Magnificent", "Powerful", "Beautiful", "Cherished", "Soft", "Priceless", "Vicious", "Perfect", "Extraordinary", "Ambiguous");
+
+$categories{6} = \@list6;
+
+@list7 = ("Silk and Velvet", "Steel", "Smoke and Fog", "Songs from Childhood", "Season of Mists (Autumn Colours, Sensations, Activities and Festivals)", "Fire and Firelight", "Sun and Stars", "Wabi / Sabi", "Flavour", "Vivid", "Water", "Touch", "Honey", "Silhouette", "Bitter", "Sugar and Spice", "The Sky at Night", "Shadows / Darkness", "Smell", "Silence");
+
+$categories{7} = \@list7;
+
+@list8 = ("Road trip", "Places of Work", "Foreign Lands", "Megacities", "Desert ", "College / University / Education", "Laboratory", "Pubs and Bars", "Africa", "Antarctica", "Australia (Continent)", "Undiscovered Countries", "The Heart of the Jungle / Forest", "Tombs, Graveyard and Memorials", "On the Balcony", "Down in the Deeps", "Factories and other Industrial Spaces", "The Bridge", "Eclipses and other Astronomical Events", "Zealandia");
+
+$categories{8} = \@list8;
+
+@list9 = ("Relative values: Families", "Siblings", "Co-workers", "Enemies", "Best Friends", "Found Families", "Team Mates", "Pack", "Partnership", "Ship and Captain / Mount and Rider", "Mentors", "Feudal Ties / Master and Servant", "Deities and Followers", "Heirs");
+
+$categories{9} = \@list9;
+
+@list10 = ("Primal Instincts", "Anhedonia (Lack of Pleasure)", "Contentment", "Anger", "Fear / Terror ", "Blue Bird of Happiness", "Alexithymia (Obscured Emotions)", "Regret", "When we were Young: Nostalgia", "Heart on Sleeve", "Affection", "Trust", "Dread", "Anticipation", "Disgust", "Surprise / Shock", "Empathy", "Loathing", "Thrills (Speed / Danger / Daring)", "The Will to Live");
+
+$categories{10} = \@list10;
+
+@list11 = ("Possession and Mind Control", "Violence", "Drugs", "Lost Limbs", "Torture", "Coercion", "Abuse (Physical or Emotional)", "Pain", "Self-Harm", "Suicide", "Injury", "Mental Health Issues", "Blood", "Humiliation", "Dissociation / Multiple Personalities", "Corpses / Skeletons / Remains", "Child Endangerment");
+
+$categories{11} = \@list11;
+
+@list12 = ("Render Unto Caesar", "Lies, Damn Lies, and Statistics", "I Have a Rendezvous with Death", "The Elephant in the Room", "Pro Patria Mori <i>(to die for your country)</i>", "Yes, but is it Art?", "The Pursuit of Happiness", "Je ne regrette rien <i>(I regret nothing)</i>", "Bread and Circuses", "The Lark Ascending", "Falls the Shadow", "The Ancients of the World", "The Age of Reason", "The Game's Afoot", "The Eyes are the Window of the Soul", "The Writing on the Wall", "Hindsight is a Wonderful Thing", "Give us this day, our daily bread", "The Pen is Mightier than the Sword", "Careless Talk Costs Lives");
+
+$categories{12} = \@list12;
+
+@list13 = ("Crack", "Wings", "Inanimate objects AU  ", "All the Dead Characters are Living Together  ", "Crack: Elves, Pixies, and other Magical Helpers or Irritations", "Crack Treated Seriously ", "Character transformed into an animal", "Anthropomorphic Personifications of Abstract Concepts", "Sentient Weaponry", "A Series of Unfortunate Accidents", "Horribly Misunderstood Villain", "Mary Sue / Gary Stu / Authorial Confusions and Other Signifiers of badfic  ", "Footnotes  ", "Gods / Angels / Demons used to Comedic effect", "World Ends in First Paragraph  ", "It was All a Dream");
+
+$categories{13} = \@list13;
+
+@list14 = ("The way we were: Pre-canon", "When I'm 64: Future", "Hey, it's that guy: Minor characters ", "Original characters ", "Character Study", "Episode Tags and Missing Scenes ", "Compare and Contrast", "That Moment (incident / chapter / episode) in detail ", "Minorities / Characters of Colour / Women in Canon ", "Canon Themes ");
+
+$categories{14} = \@list14;
+
+@list15 = ("Rainstorm", "Weather", "Snow and Ice", "Sunshine and Blue Skies", "It was a Dark and Stormy Night", "Heatwave", "Monsoon", "Trade Winds", "The North Wind doth Blow", "Sirocco", "Tornados", "Hurricane / Typhoon", "Thunder and Lightning", "A Gentle Fall of Rain", "The Oncoming Storm");
+
+$categories{15} = \@list15;
+
+@list16 = ("Black and White", "Sepia", "Pink (Love it, Loathe it, Embrace it, Reject it)", "Bright Colours", "Silver and Gold", "Pastel Shades", "Primary Colours", "Desaturated ", "Colours of the Flag", "Neutral Colours", "Natural Colours", "Neon", "Monochromatic", "Camouflage", "Complementary Colours (Opposite on the Colour Wheel) ", "Warm Colours", "Cool Colours", "Adjacent Colours on the Colour Wheel ", "Secondary Colours (Orange, Purple, Green etc.) ", "Accents and Highlights ");
+
+$categories{16} = \@list16;
+
+@list17 = ("Vehicles", "Weapons", "Plants / Trees / Flowers", "Old Things (Heirlooms, Antiques, Nostalgia)", "Tools of the Trade", "Writing, Text and Quotes", "Hats, Hoods, Hairstyles", "Jewellery", "Candles", "Toys", "Post-it Notes", "Junk", "Ravens, Crows and Birds of Ill Omen", "Tea / Coffee", "Hardware and Software", "Possessions", "Paper", "Playing Cards", "Pipes and Beer", "Puzzles");
+
+$categories{17} = \@list17;
+
+@list18 = ("Religious and other festivals", "\"It is the way of my people\": Traditions", "Another year older: Birthdays", "Coming of age", "Last Times / Farewells", "Initiation / Hazing", "Ritual Marks and Body Decorations", "Sleepovers and Pyjama Parties", "Retirement", "Curry Night", "Poker Night", "Could it be Ritual? Archaeologists and their Theories.", "Funerals and Wakes", "Graduation", "Daily Rituals (Morning Routines / Nightly Prayers / Meal Times)", "Festivals and Celebrations");
+
+$categories{18} = \@list18;
+
+@list19 = ("Warrior", "Pioneer", "Teacher", "Healer", "Explorer", "Thief", "Trickster", "Seer / Mage / Wise (Wo)Man", "Scapegoat", "Butcher / Baker / Candlestickmaker: Tradesman", "Soldier, Sailor, Airman: Armed Forces Member", "Crime Lord", "Artisan / Craftsman", "Outsider / Outlaw", "Inventor", "Spy", "Hero", "One of the Dispossessed", "Artist", "Journalist / Chronicler");
+
+$categories{19} = \@list19;
+
+@list20 = ("Badass", "Extrovert", "Cowardly", "Brave", "Determined", "Regional Traits, Markers, and Culture (Welsh, Cockney, Bavarian, Deep South...) ", "The Fool", "Strength", "The Hermit", "Venerable", "Indefatiguable", "Honesty", "Vulnerable", "Steadfast", "Adrenaline Junkie", "Ice Queen / King", "Ambitious", "Self-sufficient", "Noble", "Candid");
+
+$categories{20} = \@list20;
+
+@list21 = ("Absolute Zero", "Electromagnetic Waves", "Endothermic Reaction", "Evolution", "Exothermic Reaction", "Fission", "Fundamental Particles", "Kinetic Energy", "Latent Heat", "Mitochondria", "Newton's Laws of Motion", "Noble Gases", "Phase Changes", "Quarks", "Relativity", "Simple Harmonic Motion", "Plate Tectonics", "Game Theory", "Heliocentrism", "DNA");
+
+$categories{21} = \@list21;
+
+@list22 = ("Hate", "War", "Death", "Sacrifice / Letting Go", "Religion", "Peace", "Luck", "Sharing", "Honour / Prestige", "Unnatural (Events, Weather, Beings)", "Faith, Hope and Charity", "Power Corrupts", "Natural Selection", "The Ties that Bind", "Fate", "The Meaning of Life", "Birth / Beginnings", "The Rumour Mill", "Logic and Numbers", "Missed Opportunities / Words Unsaid");
+
+$categories{22} = \@list22;
+
+@list23 = ("Andorra", "Angola", "Cambodia", "Denmark", "East Timor", "Georgia", "Guinea-Bissau", "Guyana", "Japan", "Kyrgyzstan", "Lesotho", "Moldova", "Morocco", "Nepal", "Poland", "Solomon Islands", "Thailand", "Tunisia", "Turkey", "Abkhazia");
+
+$categories{23} = \@list23;
+
+@list24 = ("Horror ", "Humour", "Women Being Awesome", "Case / Mission Fic  ", "Action / Adventure", "Drama", "Parody", "Tragedy", "Mystery", "Poetry ", "Light-Hearted", "Genderswap ", "Myth / Fable", "Biography / Autobiography  ", "Farce");
+
+$categories{24} = \@list24;
+
+@list25 = ("Chaos and Order", "Science and Magic", "Winners and Losers", "Mind and Body", "Old and New", "Push and Pull", "Hard and Soft", "Rich and Poor", "Virtue and Vice", "Revelations and Concealments", "Heights and Depths", "Lost and Found");
+
+$categories{25} = \@list25;
+
+@list26 = ("Betrayal", "Sleeplessness / insomnia", "Phobias", "Habits and Routines", "Secrets and Lies", "Vulnerability", "Hallucinations / Visions", "Speech-deprived", "Amnesia", "Mind Games", "Dreams and Nightmares", "Awkwardness", "Introspection", "Manipulation", "Memory Related", "Truth serums, Truth spells, and Truth drugs", "Left Brain / Right Brain", "Neurovariation ", "Dreams, Daydreams, Wishes", "The Mind's Eye");
+
+$categories{26} = \@list26;
+
+@list27 = ("Dwarf", "Gnome", "Yaoguai", "Cockatrice", "Bigfoot/Yeti", "Leshy", "Ennedi Tiger", "Iara", "Ondine", "Fenghuang", "Oread", "Satyr", "Charybdis", "Hippocamp", "Shen", "Tizheruk", "Yuki-onna", "Dvorovoi", "Duende", "Tanuki");
+
+$categories{27} = \@list27;
+
+@list28 = ("Day-in-the-life ", "Kids / Babies ", "Food, cooking and mealtimes", "Vacations and Holidays", "Fluff", "Slice of Life", "Teenagers", "Sports", "Pets", "Kittens and Puppies", "Homesickness", "Housewife / Househusband", "Gardening", "Furnishing the Home", "Home-cooking", "Knitting and Sewing", "Curtainfic (and similar)", "Shopping Together", "Relaxation", "Laughter");
+
+$categories{28} = \@list28;
+
+@list29 = ("Afternoon", "Evening", "Late at Night", "Midnight", "Sunrise / Sunset", "Summertime (and the Livin' is Easy)", "Winter", "Spring", "Autumn", "Early Morning", "The Early Hours before Dawn", "Past, Present, Future", "May Morning", "Dusk");
+
+$categories{29} = \@list29;
+
+@list30 = ("Historical AU ", "Fork in the Road AU ", "Contemporary AU ", "High School / College AU ", "Detective AU ", "Hey, you're... me: meeting alternate universe counterparts", "Space AU ", "Steampunk AU ", "Freestyle crossover ", "Crossover: TV shows and movies ", "Crossover: Books and literary ", "Fusion with another fandom ", "Other parts played by the same actor ", "Pirate AU ", "Cowboy AU ", "Freestyle AU ", "Film Noir", "Coffee Shop AU ", "Alternative Professions", "Angel / Demon AU ");
+
+$categories{30} = \@list30;
+
+@list31 = ("Hypothermia", "Exhaustion", "Sensory Deprivation", "Scars", "Beauty", "Physical imperfections", "Heat", "Dancing and Singing", "Asphyxiation ", "Gore ", "Illness", "Drunkeness and Inebriation ", "Sensual Pleasures ", "Grooming (Brushing / Braiding Hair, Painting Nails, etc.)", "Warm Blooded / Cold Blooded", "Be Still My Beating Heart", "Freckles", "Tired", "Flesh and Bone");
+
+$categories{31} = \@list31;
+
+@list32 = ("Thank God it's Friday... Again: Time Loops", "Wibbly-wobbly-timey-wimey: Time travel", "Mirror, mirror: Doppelgangers, clones and evil doubles", "Hello again: Resurrection", "Ghosts and Hauntings", "Fairy Tales and Folklore", "Superpowers", "Virtual Reality", "Telepathy", "You're only young twice: Age Regression", "Mutation / Transformation", "Body Swap / Body Share", "Reincarnation", "Shapeshifting", "Supernatural Elements", "Curses", "Spells and Geases", "Sufficiently Advanced Technology", "The Cost of Magic", "Ray Guns");
+
+$categories{32} = \@list32;
+
+@list33 = ("We're all going to die!", "Deus Ex Machina", "Worst case scenario", "Abduction and kidnapping", "Quarantine", "Exile / Stranded", "Trapped!", "Truth or Dare", "Mistaken Identity", "Secret Identity", "Missing Persons", "Reunions", "Journeys and Quests", "Chosen One(s)", "Three Wishes", "Oaths / Promises", "Race Against Time", "Infiltration", "A Strange Friend", "The Company of Strangers");
+
+$categories{33} = \@list33;
+

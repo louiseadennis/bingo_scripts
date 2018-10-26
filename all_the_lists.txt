@@ -1,0 +1,4 @@
+general_list
+special_list
+primeval_list
+urbandead_list
